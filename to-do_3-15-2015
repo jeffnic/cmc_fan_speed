@@ -1,0 +1,15 @@
+
+3/15/2015
+split_files is working..
+
+
+separate the workflow like this:
+
+create a main launch file
+ - it calls getfanspeed.py
+    - creates files with date and fan speed
+ - split_files
+ - plot_graphs and copy files to webserver
+
+Need to create a page with dynamically generated links  to either display historical data or to create graph on demand
+
